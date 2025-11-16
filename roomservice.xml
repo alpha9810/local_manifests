@@ -18,8 +18,10 @@
   <project name="LineageOS/android_hardware_samsung_slsi-linaro_interfaces" path="hardware/samsung_slsi-linaro/interfaces" remote="github" revision="lineage-23.0" />
   <project name="LineageOS/android_hardware_samsung_slsi-linaro_openmax" path="hardware/samsung_slsi-linaro/openmax" remote="github" revision="lineage-23.0" />
   <!-- repopick -f 433124 433126 433128 433103 433141 433143 433174 433320 433516 433517 433518 433557 433558 433559 433560 433617 452772 -->
+  <remove-project name="platform/system/bpf"/>
   <remove-project name="platform/system/tools/mkbootimg"/>
   <remove-project name="platform/external/cronet"/>
+  <project name="LineageOS/android_system_bpf" path="system/bpf" remote="github" revision="lineage-23.0" />
   <project name="LineageOS/android_system_tools_mkbootimg" path="system/tools/mkbootimg" remote="github" revision="lineage-23.0" />
   <project name="LineageOS/android_external_cronet" path="external/cronet" remote="github" revision="lineage-23.0" />
 </manifest>
