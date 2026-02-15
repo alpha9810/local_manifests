@@ -10,7 +10,7 @@
   <project name="ExyHyperBrick/proprietary_vendor_samsung_star2lte" path="vendor/samsung/star2lte" remote="github" revision="lineage-23.0" />
   <project name="ExyHyperBrick/proprietary_vendor_samsung_starlte" path="vendor/samsung/starlte" remote="github" revision="lineage-23.0" />
   <project name="LineageOS/android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="github" revision="lineage-23.0" />
-  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-23.0" />
+  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="33f74940ad17587bacffcd40a353ba2c50c9ff30" />
   <project name="LineageOS/android_hardware_samsung_slsi-linaro_config" path="hardware/samsung_slsi-linaro/config" remote="github" revision="lineage-23.0" />
   <project name="LineageOS/android_hardware_samsung_slsi-linaro_exynos" path="hardware/samsung_slsi-linaro/exynos" remote="github" revision="lineage-23.0" />
   <project name="LineageOS/android_hardware_samsung_slsi-linaro_exynos5" path="hardware/samsung_slsi-linaro/exynos5" remote="github" revision="lineage-23.0" />
