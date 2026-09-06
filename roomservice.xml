@@ -16,7 +16,7 @@
   <project name="Evolution-X-Devices/hardware_samsung_slsi-linaro_exynos5" path="hardware/samsung_slsi-linaro/exynos5" remote="github" revision="bka" />
   <project name="Evolution-X-Devices/hardware_samsung_slsi-linaro_graphics" path="hardware/samsung_slsi-linaro/graphics" remote="github" revision="bka" />
   <project name="Evolution-X-Devices/hardware_samsung_slsi-linaro_interfaces" path="hardware/samsung_slsi-linaro/interfaces" remote="github" revision="bka" />
-  <project name="volution-X-Devices/hardware_samsung_slsi-linaro_openmax" path="hardware/samsung_slsi-linaro/openmax" remote="github" revision="bka" />
+  <project name="Evolution-X-Devices/hardware_samsung_slsi-linaro_openmax" path="hardware/samsung_slsi-linaro/openmax" remote="github" revision="bka" />
   <project name="LineageOS/android_hardware_samsung_slsi_nfc" path="hardware/samsung_slsi/nfc" remote="github" revision="lineage-23.2" />
   <project name="ExyHyperBrick/android_hardware_samsung_slsi_exynos_dtbh" path="hardware/samsung_slsi/exynos/dtbh" remote="github" revision="lineage-23.2" />
   <project path="packages/apps/PhhIms" remote="github" name="krazey/ims" revision="main" />
