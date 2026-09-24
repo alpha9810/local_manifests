@@ -3,7 +3,7 @@
   <project name="ExyHyperBrick/android_kernel_samsung_exynos9810" path="kernel/samsung/exynos9810" remote="github" revision="lineage-24.0" />
   <project name="ExyHyperBrick/android_device_samsung_exynos9810-common" path="device/samsung/exynos9810-common" remote="github" revision="lineage-24.0-imsstack" />
   <project name="ExyHyperBrick/android_device_samsung_starlte" path="device/samsung/starlte" remote="github" revision="lineage-24.0" />
-  <project name="ExyHyperBrick/android_device_samsung_star2lte" path="device/samsung/star2lte" remote="github" revision="lineage-24.0" />
+  <project name="alpha9810/android_device_samsung_star2lte" path="device/samsung/star2lte" remote="github" revision="infinity-x-17.0" />
   <project name="ExyHyperBrick/android_device_samsung_crownlte" path="device/samsung/crownlte" remote="github" revision="lineage-24.0" />
   <project name="ExyHyperBrick/proprietary_vendor_samsung_exynos9810-common" path="vendor/samsung/exynos9810-common" remote="github" revision="lineage-24.0" />
   <project name="ExyHyperBrick/proprietary_vendor_samsung_crownlte" path="vendor/samsung/crownlte" remote="github" revision="lineage-24.0" />
@@ -23,13 +23,4 @@
   <project path="packages/modules/ImsMedia" remote="github" name="krazey/ImsMedia" revision="main" />
   <remove-project name="LineageOS/android_hardware_lineage_generic-ims"/>
   <project path="packages/apps/CarrierSettings" remote="github" name="krazey/CarrierSettings" revision="main" />
-  <!--
-       Apply the repopicks above or use PATCHES.zip and extract it into the android root directory and execute apply_patches: ~/PATCHES/apply_patches.sh *
-
-       After syncing and patches, initialize the submodules. repo sync does not do this automatically:
-       cd packages/apps/PhhIms
-       git submodule update --init --recursive
-
-       * After every resync you have to reapply the patches/(repopicks)
-  -->
 </manifest>
