@@ -18,8 +18,8 @@
   <project name="LineageOS/android_hardware_samsung_slsi-linaro_interfaces" path="hardware/samsung_slsi-linaro/interfaces" remote="github" revision="lineage-24.0" />
   <project name="LineageOS/android_hardware_samsung_slsi-linaro_openmax" path="hardware/samsung_slsi-linaro/openmax" remote="github" revision="lineage-24.0" />
   <project name="LineageOS/android_hardware_samsung_slsi_nfc" path="hardware/samsung_slsi/nfc" remote="github" revision="lineage-24.0" />
+  <remove-project name="platform/packages/modules/ImsStack"/>
   <project path="packages/modules/ImsStack" remote="github" name="krazey/ImsStack" revision="main" />
-  <remove-project name="platform/packages/modules/ImsMedia"/>
   <project path="packages/modules/ImsMedia" remote="github" name="krazey/ImsMedia" revision="main" />
   <remove-project name="LineageOS/android_hardware_lineage_generic-ims"/>
   <project path="packages/apps/CarrierSettings" remote="github" name="krazey/CarrierSettings" revision="main" />
