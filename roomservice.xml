@@ -24,13 +24,4 @@
   <project path="packages/modules/ImsMedia" remote="github" name="krazey/ImsMedia" revision="main" />
   <remove-project name="LineageOS/android_hardware_lineage_generic-ims"/>
   <project path="packages/apps/CarrierSettings" remote="github" name="krazey/CarrierSettings" revision="main" />
-  <!--
-       Apply the repopicks above or use PATCHES.zip and extract it into the android root directory and execute apply_patches: ~/PATCHES/apply_patches.sh *
-
-       After syncing and patches, initialize the submodules. repo sync does not do this automatically:
-       cd packages/apps/PhhIms
-       git submodule update --init --recursive
-
-       * After every resync you have to reapply the patches/(repopicks)
-  -->
-</manifest>
+ </manifest>
